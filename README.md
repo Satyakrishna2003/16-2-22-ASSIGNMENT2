@@ -1,1 +1,9 @@
 # 16-2-22-ASSIGNMENT2
+https://www.hackerrank.com/challenges/write-a-function/problem
+def is_leap(n):
+    if year%4==0 and year%100!=0 or year%400==0:
+        return True
+    else:
+        return False
+year = int(raw_input())
+print is_leap(year)
